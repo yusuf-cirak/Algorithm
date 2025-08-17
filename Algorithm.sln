@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{5B12A992-9695-42BD-B340-25E7F4E6819F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{0C670DEF-E9BB-413E-B9B9-12ABBC047856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{069B8AC0-3948-46E7-8A91-BF87A921B5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{CBCCF966-D253-4044-B099-5AF8E759C06E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B12A992-9695-42BD-B340-25E7F4E6819F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12A992-9695-42BD-B340-25E7F4E6819F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12A992-9695-42BD-B340-25E7F4E6819F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12A992-9695-42BD-B340-25E7F4E6819F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C670DEF-E9BB-413E-B9B9-12ABBC047856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C670DEF-E9BB-413E-B9B9-12ABBC047856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C670DEF-E9BB-413E-B9B9-12ABBC047856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C670DEF-E9BB-413E-B9B9-12ABBC047856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069B8AC0-3948-46E7-8A91-BF87A921B5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069B8AC0-3948-46E7-8A91-BF87A921B5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069B8AC0-3948-46E7-8A91-BF87A921B5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069B8AC0-3948-46E7-8A91-BF87A921B5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCCF966-D253-4044-B099-5AF8E759C06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCCF966-D253-4044-B099-5AF8E759C06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCCF966-D253-4044-B099-5AF8E759C06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCCF966-D253-4044-B099-5AF8E759C06E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
