@@ -15,11 +15,20 @@
 // Console.WriteLine("{0,-35} | {1,10}", "BFS Iteratively", connectedComponentsCountBfsIteratively);
 
 
-var largestComponentSize = LargestComponent.GetLargestComponentDFSRecursively();
-Console.WriteLine($"\nLargest component size: {largestComponentSize}");
+// var largestComponentSize = LargestComponent.GetLargestComponentDFSRecursively();
+// Console.WriteLine($"\nLargest component size: {largestComponentSize}");
+//
+// var largestComponentSizeIteratively = LargestComponent.GetLargestComponentDFSIteratively();
+// Console.WriteLine($"\nLargest component size: {largestComponentSizeIteratively}");
+//
+// var largestComponentSizeBfsIteratively = LargestComponent.GetLargestComponentBFSIteravitely();
+// Console.WriteLine($"\nLargest component size: {largestComponentSizeBfsIteratively}");
 
-var largestComponentSizeIteratively = LargestComponent.GetLargestComponentDFSIteratively();
-Console.WriteLine($"\nLargest component size: {largestComponentSizeIteratively}");
 
-var largestComponentSizeBfsIteratively = LargestComponent.GetLargestComponentBFSIteravitely();
-Console.WriteLine($"\nLargest component size: {largestComponentSizeBfsIteratively}");
+// var shortestPathDfsRecursively = ShortestPath.FindShortestPathDFSRecursively('w', 'z');
+// Console.WriteLine($"\nShortest path from 'w' to 'z' (DFS Recursively): {shortestPathDfsRecursively}");
+var shortestPathDfsIteratively = ShortestPath.FindShortestPathDFSIteratively('w', 'z');
+Console.WriteLine($"\nShortest path from 'w' to 'z' (DFS Iteratively): {shortestPathDfsIteratively}");
+
+var shortestPathBfsIteratively = ShortestPath.FindShortestPathBFSIteratively('w', 'z');
+Console.WriteLine($"\nShortest path from 'w' to 'z' (BFS Iteratively): {shortestPathBfsIteratively}");
